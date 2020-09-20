@@ -1,0 +1,24 @@
+{
+    "title": "Solr.Finance",
+    "plugins": [
+        "github",
+        "expandable-chapters-small",
+        "splitter",
+        "hide-element",
+        "insert-logo",
+        "custom-favicon"
+    ],
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/solr-finance"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+        "insert-logo": {
+            "url": "images/solr.png",
+            "style": "background: none; max-height: 30px; min-height: 30px;"
+        },
+        "favicon": "images/logo.ico"
+    }
+}
